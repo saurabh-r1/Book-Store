@@ -1,17 +1,18 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Course from "../components/Course";
+import Banner from "../components/Banner";
+import Freebook from "../components/Freebook";
 import Footer from "../components/Footer";
-function Courses() {
+
+function Home() {
   return (
     <>
       <Navbar />
-      <div className=" min-h-screen">
-        <Course />
-      </div>
+      <Banner />
+      <Freebook />
       <Footer />
     </>
   );
 }
 
-export default Courses;
+export default Home;
